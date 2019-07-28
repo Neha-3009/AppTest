@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="home(failed)">
+    <classes>
+      <class name="com.backBase.TestPage.HomePageTest">
+        <methods>
+          <include name="searchComputerWithPartialname" invocation-numbers="1"/>
+          <include name="openBrowser"/>
+          <include name="shutDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backBase.TestPage.HomePageTest -->
+    </classes>
+  </test> <!-- home(failed) -->
+</suite> <!-- Failed suite [Suite] -->

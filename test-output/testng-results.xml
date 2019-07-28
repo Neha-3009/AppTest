@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-22T20:37:13Z" name="Suite" finished-at="2019-07-22T20:37:40Z" duration-ms="27457">
+    <groups>
+    </groups>
+    <test started-at="2019-07-22T20:37:13Z" name="add" finished-at="2019-07-22T20:37:23Z" duration-ms="10190">
+      <class name="com.backBase.TestPage.AddComputerTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:13Z" name="openBrowser" finished-at="2019-07-22T22:37:16Z" duration-ms="2982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:16Z" name="setUp" finished-at="2019-07-22T22:37:17Z" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:17Z" name="createComputer" data-provider="getData" finished-at="2019-07-22T22:37:18Z" duration-ms="1466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Comp1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2025-07-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2020-07-20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComputer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:18Z" name="tearDown" finished-at="2019-07-22T22:37:18Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createComputer status=SUCCESS method=AddComputerTest.createComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.backBase.TestPage.AddComputerTest@3e96bacf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:18Z" name="setUp" finished-at="2019-07-22T22:37:18Z" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:18Z" name="createComputer" data-provider="getData" finished-at="2019-07-22T22:37:20Z" duration-ms="1171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Comp2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComputer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:20Z" name="tearDown" finished-at="2019-07-22T22:37:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createComputer status=SUCCESS method=AddComputerTest.createComputer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.backBase.TestPage.AddComputerTest@3e96bacf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:20Z" name="setUp" finished-at="2019-07-22T22:37:20Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:20Z" name="validateFields" data-provider="getDataDate" finished-at="2019-07-22T22:37:21Z" duration-ms="1060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Comp1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2007-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2020-07-20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:21Z" name="tearDown" finished-at="2019-07-22T22:37:21Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFields status=SUCCESS method=AddComputerTest.validateFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.backBase.TestPage.AddComputerTest@3e96bacf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:21Z" name="setUp" finished-at="2019-07-22T22:37:21Z" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:21Z" name="validateFields" data-provider="getDataDate" finished-at="2019-07-22T22:37:22Z" duration-ms="963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Comp2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFields -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:22Z" name="setUp" finished-at="2019-07-22T22:37:22Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:22Z" name="tearDown" finished-at="2019-07-22T22:37:22Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFields status=SUCCESS method=AddComputerTest.validateFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.backBase.TestPage.AddComputerTest@3e96bacf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="cancelButton()[pri:3, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:22Z" name="cancelButton" finished-at="2019-07-22T22:37:23Z" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:23Z" name="tearDown" finished-at="2019-07-22T22:37:23Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancelButton status=SUCCESS method=AddComputerTest.cancelButton()[pri:3, instance:com.backBase.TestPage.AddComputerTest@3e96bacf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.backBase.TestPage.AddComputerTest@3e96bacf]" started-at="2019-07-22T22:37:23Z" name="shutDown" finished-at="2019-07-22T22:37:23Z" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.backBase.TestPage.AddComputerTest -->
+    </test> <!-- add -->
+    <test started-at="2019-07-22T20:37:23Z" name="home" finished-at="2019-07-22T20:37:28Z" duration-ms="5499">
+      <class name="com.backBase.TestPage.HomePageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.backBase.TestPage.HomePageTest@1356d4d4]" started-at="2019-07-22T22:37:23Z" name="openBrowser" finished-at="2019-07-22T22:37:25Z" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.HomePageTest@1356d4d4]" started-at="2019-07-22T22:37:25Z" name="setUp" finished-at="2019-07-22T22:37:27Z" duration-ms="1646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchComputerWithPartialname(java.lang.String)[pri:1, instance:com.backBase.TestPage.HomePageTest@1356d4d4]" started-at="2019-07-22T22:37:27Z" name="searchComputerWithPartialname" data-provider="getData" finished-at="2019-07-22T22:37:27Z" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchComputerWithPartialname -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.HomePageTest@1356d4d4]" started-at="2019-07-22T22:37:27Z" name="setUp" finished-at="2019-07-22T22:37:27Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.HomePageTest@1356d4d4]" started-at="2019-07-22T22:37:27Z" name="tearDown" finished-at="2019-07-22T22:37:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchComputerWithPartialname status=SUCCESS method=HomePageTest.searchComputerWithPartialname(java.lang.String)[pri:1, instance:com.backBase.TestPage.HomePageTest@1356d4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchComputerWithPartialname(java.lang.String)[pri:1, instance:com.backBase.TestPage.HomePageTest@1356d4d4]" started-at="2019-07-22T22:37:27Z" name="searchComputerWithPartialname" data-provider="getData" finished-at="2019-07-22T22:37:28Z" duration-ms="421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[comp1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchComputerWithPartialname -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.HomePageTest@1356d4d4]" started-at="2019-07-22T22:37:28Z" name="tearDown" finished-at="2019-07-22T22:37:28Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchComputerWithPartialname status=SUCCESS method=HomePageTest.searchComputerWithPartialname(java.lang.String)[pri:1, instance:com.backBase.TestPage.HomePageTest@1356d4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.HomePageTest@1356d4d4]" started-at="2019-07-22T22:37:28Z" name="setUp" finished-at="2019-07-22T22:37:28Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNextButton()[pri:2, instance:com.backBase.TestPage.HomePageTest@1356d4d4]" started-at="2019-07-22T22:37:28Z" name="testNextButton" finished-at="2019-07-22T22:37:28Z" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextButton -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.backBase.TestPage.HomePageTest@1356d4d4]" started-at="2019-07-22T22:37:28Z" name="shutDown" finished-at="2019-07-22T22:37:28Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.HomePageTest@1356d4d4]" started-at="2019-07-22T22:37:28Z" name="tearDown" finished-at="2019-07-22T22:37:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNextButton status=SUCCESS method=HomePageTest.testNextButton()[pri:2, instance:com.backBase.TestPage.HomePageTest@1356d4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backBase.TestPage.HomePageTest -->
+    </test> <!-- home -->
+    <test started-at="2019-07-22T20:37:28Z" name="delete" finished-at="2019-07-22T20:37:34Z" duration-ms="5578">
+      <class name="com.backBase.TestPage.DeleteComputerTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.backBase.TestPage.DeleteComputerTest@5f683daf]" started-at="2019-07-22T22:37:28Z" name="openBrowser" finished-at="2019-07-22T22:37:30Z" duration-ms="2146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.DeleteComputerTest@5f683daf]" started-at="2019-07-22T22:37:30Z" name="setUp" finished-at="2019-07-22T22:37:31Z" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteComputer(java.lang.String)[pri:1, instance:com.backBase.TestPage.DeleteComputerTest@5f683daf]" started-at="2019-07-22T22:37:31Z" name="deleteComputer" data-provider="getData" finished-at="2019-07-22T22:37:33Z" duration-ms="1095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[comp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComputer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.DeleteComputerTest@5f683daf]" started-at="2019-07-22T22:37:33Z" name="tearDown" finished-at="2019-07-22T22:37:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteComputer status=SUCCESS method=DeleteComputerTest.deleteComputer(java.lang.String)[pri:1, instance:com.backBase.TestPage.DeleteComputerTest@5f683daf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.DeleteComputerTest@5f683daf]" started-at="2019-07-22T22:37:33Z" name="setUp" finished-at="2019-07-22T22:37:33Z" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyComputerCount(java.lang.String)[pri:2, instance:com.backBase.TestPage.DeleteComputerTest@5f683daf]" started-at="2019-07-22T22:37:33Z" name="verifyComputerCount" data-provider="getData" finished-at="2019-07-22T22:37:34Z" duration-ms="989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[comp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyComputerCount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.DeleteComputerTest@5f683daf]" started-at="2019-07-22T22:37:34Z" name="tearDown" finished-at="2019-07-22T22:37:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyComputerCount status=SUCCESS method=DeleteComputerTest.verifyComputerCount(java.lang.String)[pri:2, instance:com.backBase.TestPage.DeleteComputerTest@5f683daf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.backBase.TestPage.DeleteComputerTest@5f683daf]" started-at="2019-07-22T22:37:34Z" name="shutDown" finished-at="2019-07-22T22:37:34Z" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.backBase.TestPage.DeleteComputerTest -->
+    </test> <!-- delete -->
+    <test started-at="2019-07-22T20:37:34Z" name="update" finished-at="2019-07-22T20:37:40Z" duration-ms="6094">
+      <class name="com.backBase.TestPage.UpdateComputerTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.backBase.TestPage.UpdateComputerTest@2525ff7e]" started-at="2019-07-22T22:37:34Z" name="openBrowser" finished-at="2019-07-22T22:37:36Z" duration-ms="2176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.UpdateComputerTest@2525ff7e]" started-at="2019-07-22T22:37:36Z" name="setUp" finished-at="2019-07-22T22:37:37Z" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDate(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.backBase.TestPage.UpdateComputerTest@2525ff7e]" started-at="2019-07-22T22:37:37Z" name="validateDate" data-provider="getDataDate" finished-at="2019-07-22T22:37:38Z" duration-ms="1101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[comp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[comp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDate -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.UpdateComputerTest@2525ff7e]" started-at="2019-07-22T22:37:38Z" name="tearDown" finished-at="2019-07-22T22:37:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDate status=SUCCESS method=UpdateComputerTest.validateDate(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.backBase.TestPage.UpdateComputerTest@2525ff7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.backBase.TestPage.UpdateComputerTest@2525ff7e]" started-at="2019-07-22T22:37:38Z" name="setUp" finished-at="2019-07-22T22:37:39Z" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="updateComputerFields(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.backBase.TestPage.UpdateComputerTest@2525ff7e]" started-at="2019-07-22T22:37:39Z" name="updateComputerFields" data-provider="getData" finished-at="2019-07-22T22:37:40Z" duration-ms="1157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[comp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[comp13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateComputerFields -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:com.backBase.TestPage.UpdateComputerTest@2525ff7e]" started-at="2019-07-22T22:37:40Z" name="shutDown" finished-at="2019-07-22T22:37:40Z" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.backBase.TestPage.UpdateComputerTest@2525ff7e]" started-at="2019-07-22T22:37:40Z" name="tearDown" finished-at="2019-07-22T22:37:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateComputerFields status=SUCCESS method=UpdateComputerTest.updateComputerFields(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.backBase.TestPage.UpdateComputerTest@2525ff7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backBase.TestPage.UpdateComputerTest -->
+    </test> <!-- update -->
+  </suite> <!-- Suite -->
+</testng-results>

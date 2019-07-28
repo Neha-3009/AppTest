@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="add">
+    <classes>
+      <class name="com.backBase.TestPage.AddComputerTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="home">
+    <classes>
+      <class name="com.backBase.TestPage.HomePageTest"/>
+    </classes>
+    </test>
+    <test thread-count="5" name="delete">
+    <classes>
+      <class name="com.backBase.TestPage.DeleteComputerTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="update">
+    <classes>
+      <class name="com.backBase.TestPage.UpdateComputerTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
